@@ -22,7 +22,7 @@ namespace WorkingwithTextConsole
             Console.WriteLine("All uppercase =" + mary.ToUpper());
             Console.WriteLine("Insert string within a string =" + mary.Insert(4, " and Jack "));
             Console.WriteLine("Splitting string into words:");
-            string[] parts = mary.Split(" ");
+            string[] parts = mary.Split('');
             foreach (string p in parts)
             {
                 Console.WriteLine(p);
